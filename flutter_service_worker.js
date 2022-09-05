@@ -4,10 +4,9 @@ const TEMP = 'flutter-temp-cache';
 const CACHE_NAME = 'flutter-app-cache';
 const RESOURCES = {
   "version.json": "c0630821f7704be5b6c6087b10399dd1",
-"index.html": "ff061c55316cdce310ed2ff92cdf17e8",
-"/": "ff061c55316cdce310ed2ff92cdf17e8",
+"index.html": "7c1b948d7d85e02f2ba3e4d46374f9c6",
+"/": "7c1b948d7d85e02f2ba3e4d46374f9c6",
 "main.dart.js": "961f084f383e29687d784de95efe44e6",
-"flutter.js": "f85e6fb278b0fd20c349186fb46ae36d",
 "favicon.png": "2704101cb06ce66e2000356a312be25c",
 "icons/Icon-192.png": "ac9a721a12bbc803b44f645561ecb1e1",
 "icons/Icon-512.png": "96e752610906ba2a93c65f8abe1645f1",
@@ -62,11 +61,7 @@ const RESOURCES = {
 "assets/assets/fonts/Inter-ExtraLight.otf": "97592cd01de5f8e5db834265c3e2a0d4",
 "assets/assets/fonts/Inter-ExtraBoldItalic.otf": "83ba0d6212dc1fb6107c7749729798f9",
 "assets/assets/fonts/Inter-BoldItalic.otf": "b186ce584f0824196eb2ef3a38e0da38",
-"assets/assets/fonts/Inter-LightItalic.otf": "4268ddecb3b091fc039efae1719cf1d6",
-"canvaskit/canvaskit.js": "2bc454a691c631b07a9307ac4ca47797",
-"canvaskit/profiling/canvaskit.js": "38164e5a72bdad0faa4ce740c9b8e564",
-"canvaskit/profiling/canvaskit.wasm": "95a45378b69e77af5ed2bc72b2209b94",
-"canvaskit/canvaskit.wasm": "bf50631470eb967688cca13ee181af62"
+"assets/assets/fonts/Inter-LightItalic.otf": "4268ddecb3b091fc039efae1719cf1d6"
 };
 
 // The application shell files that are downloaded before a service worker can
