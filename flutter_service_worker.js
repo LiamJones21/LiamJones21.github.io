@@ -3,47 +3,70 @@ const MANIFEST = 'flutter-app-manifest';
 const TEMP = 'flutter-temp-cache';
 const CACHE_NAME = 'flutter-app-cache';
 const RESOURCES = {
-  "version.json": "066321b69cad61202ee935e6902611ef",
-"index.html": "07743e288bbb7dbe210c11ebac880483",
-"/": "07743e288bbb7dbe210c11ebac880483",
-"main.dart.js": "7b4816bd2a8661551f5b4c0032f33190",
-"flutter.js": "eb2682e33f25cd8f1fc59011497c35f8",
-"favicon.png": "5dcef449791fa27946b3d35ad8803796",
+  "version.json": "c0630821f7704be5b6c6087b10399dd1",
+"index.html": "ff061c55316cdce310ed2ff92cdf17e8",
+"/": "ff061c55316cdce310ed2ff92cdf17e8",
+"main.dart.js": "961f084f383e29687d784de95efe44e6",
+"flutter.js": "f85e6fb278b0fd20c349186fb46ae36d",
+"favicon.png": "2704101cb06ce66e2000356a312be25c",
 "icons/Icon-192.png": "ac9a721a12bbc803b44f645561ecb1e1",
 "icons/Icon-512.png": "96e752610906ba2a93c65f8abe1645f1",
-"manifest.json": "0329cb1037291ee8e14c1cac1695b7e3",
-"assets/AssetManifest.json": "a2fd67e51bdfb6b9cddf2517249318b7",
-"assets/NOTICES": "eb0c016639edd850a2dce60b71b155ee",
-"assets/FontManifest.json": "5a32d4310a6f5d9a6b651e75ba0d7372",
+"manifest.json": "e4b7f8d47da6a23b2e8a7d08867384d4",
+"assets/AssetManifest.json": "814edaebc88a00ac9d0b6ad4df5ae633",
+"assets/NOTICES": "05372742d8b407a2a557d2997729eeb7",
+"assets/FontManifest.json": "bac9d5ad64bb85f888281d399b7c59dc",
 "assets/packages/cupertino_icons/assets/CupertinoIcons.ttf": "6d342eb68f170c97609e9da345464e5e",
 "assets/packages/font_awesome_flutter/lib/fonts/fa-solid-900.ttf": "dd3c4233029270506ecc994d67785a37",
 "assets/packages/font_awesome_flutter/lib/fonts/fa-regular-400.ttf": "613e4cc1af0eb5148b8ce409ad35446d",
 "assets/packages/font_awesome_flutter/lib/fonts/fa-brands-400.ttf": "d1722d5cf2c7855862f68edb85e31f88",
+"assets/packages/glass/images/noise.png": "326f70bd3633c4bb951eac0da073485d",
+"assets/shaders/ink_sparkle.frag": "6657ae42e30022b913f2cf95e636a6ea",
 "assets/fonts/MaterialIcons-Regular.otf": "95db9098c58fd6db106f1116bae85a0b",
 "assets/assets/audios/favicon.png": "5dcef449791fa27946b3d35ad8803796",
 "assets/assets/rive_animations/favicon.png": "5dcef449791fa27946b3d35ad8803796",
+"assets/assets/images/Peter-Cheung--tojpeg_1572606711645_x4-2.jpg": "13a9776a093b857f95e44655f96839cb",
 "assets/assets/images/fin_onboarding_1@2x.png": "1b672a4dc45253d9bf32dc6f578360ce",
 "assets/assets/images/login_bg@2x.png": "cdc1132585602fe5eb20d2b6e755b86f",
 "assets/assets/images/fin_onboarding_3@2x.png": "6b0b98c0b0ba5e1271e442673d9172d1",
 "assets/assets/images/Screenshot_2022-08-07_at_09.43.59.png": "65bb7b1cd96b7e723c4794bf5f8f88dd",
 "assets/assets/images/IMP_ML_1CS_4CP_CLEAR-SPACE.png": "166fb4d02bb16d182b8539951b9996c2",
-"assets/assets/images/app_launcher_icon.png": "166fb4d02bb16d182b8539951b9996c2",
+"assets/assets/images/app_launcher_icon.png": "8aaf4ba238ec05ed08cec52ad2224106",
 "assets/assets/images/Screenshot_2022-08-07_at_09.44.40.png": "75cad44a6dbebb06b2f39ce07c72c333",
 "assets/assets/images/avatar.png": "5491efdf256f7b0d2bb0921db2a0e4be",
 "assets/assets/images/favicon.png": "5dcef449791fa27946b3d35ad8803796",
 "assets/assets/images/IMP_ML_W_N_CLEAR-SPACE.png": "bdfbd89cc08255898bef975c4318ee7f",
 "assets/assets/images/fin_onboarding_2@2x.png": "dbf6df7fce05eca86fa4f1aec70a64f4",
 "assets/assets/images/Screenshot_2022-08-07_at_09.59.40.png": "00009a6a0d36503a3c9e2aa63565c2c8",
+"assets/assets/images/Screenshot_2022-09-05_at_08.19.28.png": "b3d200552abb6dbcc0a963e7a7c9ac90",
 "assets/assets/images/microsoft-teams-2019-03-21.png": "3951957907ee7de8654f48df911cb82f",
 "assets/assets/lottie_animations/99151-online-education-blue.json": "2f7606d874122fb988da47f72007cf55",
 "assets/assets/lottie_animations/favicon.png": "5dcef449791fa27946b3d35ad8803796",
 "assets/assets/videos/favicon.png": "5dcef449791fa27946b3d35ad8803796",
 "assets/assets/pdfs/favicon.png": "5dcef449791fa27946b3d35ad8803796",
+"assets/assets/fonts/Inter-Bold.otf": "d759e235e88e47f838062c7ab97308b1",
+"assets/assets/fonts/Inter-Regular.otf": "76e872bc911c3d908aeaf31b2c16bc63",
+"assets/assets/fonts/Inter-SemiBoldItalic.otf": "cc0173dae3b39bd7bbb34674b8d576e1",
+"assets/assets/fonts/Inter-Thin.otf": "72869267880104b27bed47fdf7e5c75d",
+"assets/assets/fonts/Inter-Light.otf": "d7019947105844db1899d246172f06b4",
+"assets/assets/fonts/Inter-ExtraLightItalic.otf": "c76c911e77ac5bb473f419cad8376b6d",
+"assets/assets/fonts/Inter-Medium.otf": "ef3d193e6a6ad033724c7872aec1cff7",
 "assets/assets/fonts/favicon.png": "5dcef449791fa27946b3d35ad8803796",
-"canvaskit/canvaskit.js": "c2b4e5f3d7a3d82aed024e7249a78487",
-"canvaskit/profiling/canvaskit.js": "ae2949af4efc61d28a4a80fffa1db900",
-"canvaskit/profiling/canvaskit.wasm": "95e736ab31147d1b2c7b25f11d4c32cd",
-"canvaskit/canvaskit.wasm": "4b83d89d9fecbea8ca46f2f760c5a9ba"
+"assets/assets/fonts/Inter-SemiBold.otf": "ef2dede4404ddb4cb3ed69d196ef2722",
+"assets/assets/fonts/Inter-BlackItalic.otf": "6b9a465122dcdddf666caa17a1447e67",
+"assets/assets/fonts/Inter-MediumItalic.otf": "3d33faa33190d4a4c271dbaf7a6dfb86",
+"assets/assets/fonts/Inter-Black.otf": "e6fef702b507237e0033f4244cc4389c",
+"assets/assets/fonts/Inter-Italic.otf": "0f9f3b37376a39136b2f0c63e287ad0f",
+"assets/assets/fonts/meta-normal.ttf": "399ac41c0a8bf2e571248e0b7f6824b3",
+"assets/assets/fonts/Inter-ExtraBold.otf": "b799b6950c238082c8e314d127842845",
+"assets/assets/fonts/Inter-ThinItalic.otf": "efd29db88022972e4835288ca2c43d32",
+"assets/assets/fonts/Inter-ExtraLight.otf": "97592cd01de5f8e5db834265c3e2a0d4",
+"assets/assets/fonts/Inter-ExtraBoldItalic.otf": "83ba0d6212dc1fb6107c7749729798f9",
+"assets/assets/fonts/Inter-BoldItalic.otf": "b186ce584f0824196eb2ef3a38e0da38",
+"assets/assets/fonts/Inter-LightItalic.otf": "4268ddecb3b091fc039efae1719cf1d6",
+"canvaskit/canvaskit.js": "2bc454a691c631b07a9307ac4ca47797",
+"canvaskit/profiling/canvaskit.js": "38164e5a72bdad0faa4ce740c9b8e564",
+"canvaskit/profiling/canvaskit.wasm": "95a45378b69e77af5ed2bc72b2209b94",
+"canvaskit/canvaskit.wasm": "bf50631470eb967688cca13ee181af62"
 };
 
 // The application shell files that are downloaded before a service worker can
@@ -51,7 +74,6 @@ const RESOURCES = {
 const CORE = [
   "main.dart.js",
 "index.html",
-"assets/NOTICES",
 "assets/AssetManifest.json",
 "assets/FontManifest.json"];
 // During install, the TEMP cache is populated with the application shell files.
@@ -150,9 +172,11 @@ self.addEventListener("fetch", (event) => {
     .then((cache) =>  {
       return cache.match(event.request).then((response) => {
         // Either respond with the cached resource, or perform a fetch and
-        // lazily populate the cache.
+        // lazily populate the cache only if the resource was successfully fetched.
         return response || fetch(event.request).then((response) => {
-          cache.put(event.request, response.clone());
+          if (response && Boolean(response.ok)) {
+            cache.put(event.request, response.clone());
+          }
           return response;
         });
       })

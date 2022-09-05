@@ -1,6 +1,6 @@
 {
-    "name": "Imperial Grade Center",
-    "short_name": "Imperial Grade Center",
+    "name": "SchedueApp",
+    "short_name": "SchedueApp",
     "start_url": ".",
     "display": "standalone",
     "background_color": "#0175C2",
